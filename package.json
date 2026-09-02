@@ -1,0 +1,12 @@
+{
+  "name": "backslop",
+  "version": "0.1.0",
+  "description": "Catch the backend code AI agents write before they say done: unbounded queries, N+1, O(n²) loops, swallowed errors, gamed tests. Agent skills + a zero-dependency, diff-aware scanner and Stop hook.",
+  "type": "module",
+  "private": true,
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=18.17" },
+  "keywords": ["ai", "agents", "claude-code", "codex", "cursor", "agent-skills", "backend", "anti-slop", "n+1", "code-review", "linter", "stop-hook"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Alcadramin/backslop.git" }
+}
