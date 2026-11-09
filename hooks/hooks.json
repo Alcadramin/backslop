@@ -1,0 +1,11 @@
+{
+  "description": "backslop: record a baseline when the session starts; before the agent stops, scan only what this session changed and send back high-severity findings once.",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/skills/backslop/scripts/backslop.mjs\" hook baseline", "timeout": 15 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/skills/backslop/scripts/backslop.mjs\" hook stop", "timeout": 60, "statusMessage": "backslop: checking this session's diff" } ] }
+    ]
+  }
+}
