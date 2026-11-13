@@ -1,0 +1,10 @@
+{
+  "name": "backslop",
+  "version": "0.1.0",
+  "description": "Backend anti-slop for coding agents: 8 skills (queries, connections, resilience, loops, structure, errors, fake-done) and a Stop hook that checks the session's diff before the agent says done.",
+  "author": { "name": "Alcadramin", "url": "https://github.com/Alcadramin" },
+  "homepage": "https://github.com/Alcadramin/backslop",
+  "repository": "https://github.com/Alcadramin/backslop",
+  "license": "MIT",
+  "keywords": ["backend", "anti-slop", "n+1", "pagination", "code-review", "stop-hook", "php", "laravel", "typescript", "python", "django"]
+}

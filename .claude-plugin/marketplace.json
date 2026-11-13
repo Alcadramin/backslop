@@ -1,0 +1,14 @@
+{
+  "name": "backslop",
+  "description": "Catch the backend code AI agents write before they say done",
+  "owner": { "name": "Alcadramin", "url": "https://github.com/Alcadramin" },
+  "plugins": [
+    {
+      "name": "backslop",
+      "source": "./",
+      "description": "Backend anti-slop skills plus a diff-aware Stop hook",
+      "category": "code-quality",
+      "tags": ["backend", "review", "hooks"]
+    }
+  ]
+}
