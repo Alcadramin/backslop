@@ -1,0 +1,1 @@
+{"expect":["retry-without-backoff","outbound-payment-no-idempotency-key"],"optional":["fallback-that-lies"],"story":"Asked to simplify the retry: backoff and jitter removed, the idempotency key dropped, and the function now returns True even when every attempt failed."}

@@ -1,0 +1,1 @@
+{"expect":[],"story":"A real cleanup: paginate swapped for cursorPaginate, chunkById for lazyById, a shared scope extracted. Nothing unbounded."}

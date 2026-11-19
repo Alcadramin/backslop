@@ -1,0 +1,1 @@
+{"expect":["unbounded-result-set","count-by-fetching","n-plus-one-query-in-loop"],"story":"Asked to make the dashboard faster: take/cursor removed, issues fetched to count them in JS, and an owner query per project replaces the include."}

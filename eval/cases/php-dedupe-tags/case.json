@@ -1,0 +1,1 @@
+{"expect":["accumulate-by-copy-in-loop","linear-lookup-in-loop","multi-pass-pipeline"],"story":"Asked to clean up a helper: a keyed set replaced by array_merge in a loop, in_array against the banned list per tag, and a three-deep array_* pipeline."}

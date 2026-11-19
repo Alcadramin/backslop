@@ -1,0 +1,1 @@
+{"expect":["http-no-timeout","network-call-in-transaction","empty-catch"],"story":"Asked to fix a flaky invoice sync: the timeout was dropped, the HTTP call moved inside the transaction, and the whole thing wrapped in except: pass so it never fails again."}
