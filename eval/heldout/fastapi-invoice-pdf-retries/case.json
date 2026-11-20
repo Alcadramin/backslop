@@ -1,0 +1,5 @@
+{
+  "expect": ["event-loop-blocking", "retry-without-backoff", "http-no-timeout", "whole-payload-in-memory"],
+  "optional": [],
+  "story": "Asked to add retries because the PDF renderer is flaky, the agent swapped the streaming httpx AsyncClient for a blocking requests.get inside the async endpoint, with no timeout, five immediate retries, and the whole PDF read into memory."
+}

@@ -1,0 +1,5 @@
+{
+  "expect": ["deep-offset-pagination", "count-by-fetching"],
+  "optional": ["unbounded-result-set"],
+  "story": "Asked to simplify chat history paging to plain page numbers, the agent replaced the Prisma cursor with skip/take offsets and computed the unread count by loading every unread message and taking .length."
+}

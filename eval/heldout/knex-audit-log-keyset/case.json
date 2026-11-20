@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to fix slow deep pages in the audit log API, the agent replaced Knex limit/offset with keyset pagination on id (limit PAGE_SIZE + 1 to detect more rows), keeping the admin guard and filters."
+}

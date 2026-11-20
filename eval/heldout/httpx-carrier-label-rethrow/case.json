@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to handle carrier API errors, the agent caught httpx status and transport errors and re-raised them as LabelError with the shipment id and response detail, chaining the original with `from exc`."
+}

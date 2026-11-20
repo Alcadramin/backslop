@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to speed up the shipment list API, the agent eager-loaded the carrier and destination relations the response reads, and swapped offset paginate() for cursorPaginate() on the id-ordered feed."
+}

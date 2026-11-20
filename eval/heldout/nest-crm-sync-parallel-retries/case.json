@@ -1,0 +1,5 @@
+{
+  "expect": ["unbounded-concurrency", "retry-without-backoff", "http-no-timeout"],
+  "optional": [],
+  "story": "Asked to make the tenant CRM sync faster and add retries, the agent fanned out one PUT per pending contact with Promise.all, added a 3-attempt retry with no delay, and dropped the axios timeout."
+}

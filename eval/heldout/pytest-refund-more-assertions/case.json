@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to tighten the refund tests, the agent added exact assertions on refunded_cents and the gateway calls, gave the double-refund test real assertions, and added a test for refunds above the order total."
+}

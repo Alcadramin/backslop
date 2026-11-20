@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to add retries to the payout job, the agent retried only transient Stripe errors, capped at 4 attempts with full-jitter exponential backoff, reusing the same payout-derived idempotency key on every attempt."
+}

@@ -1,0 +1,5 @@
+{
+  "expect": ["webhook-no-dedupe", "floating-promise-or-task", "checker-suppressed"],
+  "optional": ["narrating-comments"],
+  "story": "Asked to stop the Stripe webhook from timing out, the agent removed the processed-event lookup and insert, stopped awaiting provisionSeats, and silenced the type error on event.data.object with @ts-ignore."
+}

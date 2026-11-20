@@ -1,0 +1,5 @@
+{
+  "expect": ["retry-without-backoff", "outbound-payment-no-idempotency-key"],
+  "optional": ["retry-non-idempotent"],
+  "story": "Asked to add retries because refunds sometimes got stuck, the agent wrapped the Stripe refund in a 5-attempt loop with no delay and dropped the idempotency_key options array while restructuring the call."
+}

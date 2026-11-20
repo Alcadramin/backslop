@@ -1,0 +1,5 @@
+{
+  "expect": ["http-no-timeout", "fallback-that-lies"],
+  "optional": [],
+  "story": "Asked to fix checkout failing with cURL error 28 timeouts, the agent removed the Guzzle timeout and connect_timeout and wrapped the rate call in a catch-all that returns an empty rate list."
+}

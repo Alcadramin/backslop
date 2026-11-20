@@ -1,0 +1,5 @@
+{
+  "expect": ["lost-update-read-modify-write", "missing-transaction-multi-write", "string-built-sql"],
+  "optional": [],
+  "story": "Asked to simplify the stock reservation code, the agent removed the transaction and the SELECT ... FOR UPDATE, and inlined the SKU into the SELECT string instead of binding it."
+}

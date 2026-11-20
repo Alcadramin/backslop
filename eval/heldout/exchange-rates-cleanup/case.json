@@ -1,0 +1,5 @@
+{
+  "expect": ["unbounded-memory-cache", "fallback-that-lies", "secrets-or-pii-logged"],
+  "optional": [],
+  "story": "Asked to clean up the FX rates module, the agent set lru_cache maxsize=None on a function keyed by an ever-growing time bucket, replaced RatesUnavailable with a catch-all that returns an empty dict, and added a debug log that prints the API key."
+}

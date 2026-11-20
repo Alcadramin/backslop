@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked why the currency backfill leaves about half the orders untouched, the agent switched chunk() to chunkById() so updating amount_eur_cents no longer skips rows."
+}

@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked why order placement hits Prisma's interactive transaction timeout, the agent moved the ERP HTTP call out of $transaction so it runs after commit, keeping its timeout and adding a status check."
+}

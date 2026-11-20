@@ -1,0 +1,5 @@
+{
+  "expect": ["linear-lookup-in-loop", "row-by-row-writes", "stub-or-todo-left"],
+  "optional": ["missing-transaction-multi-write"],
+  "story": "Asked to simplify the IdP directory sync, the agent turned the email set into a list checked per user, replaced the bulk insert with session.add plus commit per row, and replaced the working deactivation UPDATE with a TODO stub returning 0."
+}

@@ -1,0 +1,5 @@
+{
+  "expect": [],
+  "optional": [],
+  "story": "Asked to speed up SKU reconciliation, the agent turned the known-SKU list into a set and moved the keyset batch loop into a generator, keeping the LIMIT and the id-ordered paging."
+}

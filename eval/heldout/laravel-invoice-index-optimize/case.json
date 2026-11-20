@@ -1,0 +1,5 @@
+{
+  "expect": ["unbounded-result-set", "filter-sort-in-app", "n-plus-one-lazy-relation", "count-by-fetching", "aggregate-in-app"],
+  "optional": ["narrating-comments"],
+  "story": "Asked to optimize the invoice endpoints, the agent replaced the cursor-paginated, eager-loaded query with Invoice::all() filtered and sorted in PHP, and turned the overdue COUNT/SUM into a get() followed by collection count() and sum()."
+}
